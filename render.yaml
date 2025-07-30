@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: wise-scraper
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
